@@ -8,4 +8,4 @@ be my guest.
 
 ## Use
 
-- Use namespace SweetSally\FormsBundle\Form\Type\DataListType to extend the default texttype to use it as a Datalist
+- Use namespace SweetSallyBe\FormsBundle\Form\Type\DataListType to extend the default texttype to use it as a Datalist

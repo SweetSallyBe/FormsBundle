@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SweetSally\FormsBundle\DependencyInjection;
+namespace SweetSallyBe\FormsBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\FileLocator;

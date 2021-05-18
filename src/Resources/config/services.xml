@@ -5,7 +5,7 @@
         https://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="sweet_sally.forms_bundle.forms_bundle" class="SweetSally\FormsBundle\FormsBundle"/>
-        <service id="SweetSally\FormsBundle\FormsBundle" alias="sweet_sally.forms_bundle.forms_bundle"/>
+        <service id="sweet_sally.forms_bundle.forms_bundle" class="SweetSallyBe\FormsBundle\FormsBundle"/>
+        <service id="SweetSallyBe\FormsBundle\FormsBundle" alias="sweet_sally.forms_bundle.forms_bundle"/>
     </services>
 </container>

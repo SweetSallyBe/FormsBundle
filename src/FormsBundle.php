@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SweetSally\FormsBundle;
+namespace SweetSallyBe\FormsBundle;
 
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;

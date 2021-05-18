@@ -1,6 +1,6 @@
 <?php
 
-namespace SweetSally\FormsBundle\Form\Type;
+namespace SweetSallyBe\FormsBundle\Form\Type;
 
 
 use Symfony\Component\Form\AbstractType;
