@@ -1,0 +1,9 @@
+{% block datalist_widget %}
+    {%- set type = type|default('text') -%}
+    {{ block('form_widget_simple') }}
+    <datalist id="{{ id }}_list">
+        {% for choice in choices %}
+            <option value="{{ choice }}"></option>
+        {% endfor %}
+    </datalist>
+{% endblock %}
