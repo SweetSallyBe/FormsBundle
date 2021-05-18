@@ -1,5 +1,7 @@
 {% block datalist_widget %}
     {%- set type = type|default('text') -%}
+    {%- set attr = attr|merge({list: id ~ '_list'}) -%}
+    
     {{ block('form_widget_simple') }}
     <datalist id="{{ id }}_list">
         {% for choice in choices %}
