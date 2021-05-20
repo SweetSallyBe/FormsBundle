@@ -9,3 +9,10 @@ be my guest.
 ## Use
 
 - Use namespace SweetSallyBe\FormsBundle\Form\Type\DataListType to extend the default texttype to use it as a Datalist
+
+Create file config\packages\forms.yaml
+twig:
+  paths:
+    '%kernel.project_dir%/vendor/sweet-sally-be/forms-bundle/src/Form/View': FormsBundle
+  form_themes:
+    - '@FormsBundle/fields.html.twig'

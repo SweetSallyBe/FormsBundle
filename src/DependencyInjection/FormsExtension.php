@@ -16,10 +16,9 @@ class FormsExtension extends Extension
     {
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('services.xml');
-
         $configuration = $this->getConfiguration($configs, $container);
         $config = $this->processConfiguration($configuration, $configs);
-        $definition = $container->getDefinition('sweet_sally_be.forms_bundle.forms_bundle');
+//        $definition = $container->getDefinition('sweet_sally_be.forms_bundle.forms_bundle');
     }
 
 }
