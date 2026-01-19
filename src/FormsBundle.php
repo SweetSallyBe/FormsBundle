@@ -1,17 +1,13 @@
 <?php
 
-
 namespace SweetSallyBe\FormsBundle;
 
+use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-use SweetSallyBe\FormsBundle\DependencyInjection\FormsBundleExtension;
-use Symfony\Component\HttpKernel\Bundle\Bundle;
-
-class FormsBundle extends Bundle
+class FormsBundle extends AbstractBundle
 {
     public function getPath(): string
     {
         return \dirname(__DIR__);
     }
-
 }

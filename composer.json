@@ -1,23 +1,33 @@
 {
   "name": "sweet-sally-be/forms-bundle",
   "description": "Extra add ons for Symfony forms",
+  "version": "0.013",
   "type": "symfony-bundle",
   "minimum-stability": "dev",
   "keywords": [
-    "extensions","symfony","translatable"
+    "extensions",
+    "symfony",
+    "translatable"
   ],
   "homepage": "https://www.sweetsally.be",
   "license": "unlicensed",
   "authors": [
-    { "name": "Sweet Sally", "homepage": "https://www.sweetsally.be" }
+    {
+      "name": "Sweet Sally",
+      "homepage": "https://www.sweetsally.be"
+    }
   ],
   "require": {
-    "php": "^7.4|^8",
-    "symfony/framework-bundle": "^5.2|^5.3|^5.4|^6|^7|^8"
+    "php": "^8.4",
+    "symfony/framework-bundle": "^8",
+    "symfony/dependency-injection": "^8",
+    "symfony/config": "^8",
+    "symfony/http-kernel": "^8",
+    "symfony/form": "8.1.x-dev",
+    "symfony/options-resolver": "^8"
   },
   "require-dev": {
-    "psr/log": "^1.1",
-    "rector/rector": "dev-main"
+    "psr/log": "^1.1"
   },
   "autoload": {
     "psr-4": {
