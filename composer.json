@@ -1,7 +1,7 @@
 {
   "name": "sweet-sally-be/forms-bundle",
   "description": "Extra add ons for Symfony forms",
-  "version": "0.013",
+  "version": "0.014",
   "type": "symfony-bundle",
   "minimum-stability": "dev",
   "keywords": [
