@@ -1,9 +1,9 @@
 {
   "name": "sweet-sally-be/forms-bundle",
   "description": "Extra add ons for Symfony forms",
-  "version": "0.014",
+  "version": "0.015",
   "type": "symfony-bundle",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "keywords": [
     "extensions",
     "symfony",
@@ -23,7 +23,7 @@
     "symfony/dependency-injection": "^8",
     "symfony/config": "^8",
     "symfony/http-kernel": "^8",
-    "symfony/form": "8.1.x-dev",
+    "symfony/form": "8",
     "symfony/options-resolver": "^8"
   },
   "require-dev": {
