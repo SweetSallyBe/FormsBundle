@@ -1,6 +1,7 @@
 {
   "name": "sweet-sally-be/forms-bundle",
   "description": "Extra add ons for Symfony forms",
+  "version": "0.011",
   "type": "symfony-bundle",
   "minimum-stability": "dev",
   "keywords": [
@@ -17,7 +18,7 @@
   },
   "require-dev": {
     "psr/log": "^1.1",
-    "rector/rector": "dev-main"
+    "rector/rector": "2.*"
   },
   "autoload": {
     "psr-4": {

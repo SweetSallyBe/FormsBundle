@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f4ec231103e25655c43958e06ef6d8b",
+    "content-hash": "57d3ea50268b5ed3806a451b081b5bed",
     "packages": [
         {
             "name": "psr/cache",
@@ -1941,8 +1941,8 @@
             "version": "2.1.x-dev",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/df7c0820ee8df7b9981653b004370653924989c5",
-                "reference": "df7c0820ee8df7b9981653b004370653924989c5",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/474b59e76964473fdfea77696a93b20fac11adda",
+                "reference": "474b59e76964473fdfea77696a93b20fac11adda",
                 "shasum": ""
             },
             "require": {
@@ -1988,20 +1988,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-19T15:18:06+00:00"
+            "time": "2026-01-19T15:36:42+00:00"
         },
         {
             "name": "rector/rector",
-            "version": "dev-main",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "c8c73588d1167100b7a5d44539ff4ed4395dd237"
+                "reference": "9afc1bb43571b25629f353c61a9315b5ef31383a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/c8c73588d1167100b7a5d44539ff4ed4395dd237",
-                "reference": "c8c73588d1167100b7a5d44539ff4ed4395dd237",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/9afc1bb43571b25629f353c61a9315b5ef31383a",
+                "reference": "9afc1bb43571b25629f353c61a9315b5ef31383a",
                 "shasum": ""
             },
             "require": {
@@ -2017,7 +2017,6 @@
             "suggest": {
                 "ext-dom": "To manipulate phpunit.xml via the custom-rule command"
             },
-            "default-branch": true,
             "bin": [
                 "bin/rector"
             ],
@@ -2041,7 +2040,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/main"
+                "source": "https://github.com/rectorphp/rector/tree/2.3.1"
             },
             "funding": [
                 {
@@ -2049,14 +2048,12 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-19T10:09:29+00:00"
+            "time": "2026-01-13T15:13:58+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "rector/rector": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
